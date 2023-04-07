@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "AzureSyncDF"
+		},
+		"SqlServer1_connectionString": {
+			"value": "Integrated Security=True;Data Source=HRISTINA-S;Initial Catalog=SourceDB"
+		},
+		"SqlServer1_password": {
+			"value": ""
+		},
+		"SqlServer2_connectionString": {
+			"value": "Integrated Security=True;Data Source=HRISTINA-S;Initial Catalog=TargetDB"
+		},
+		"SqlServer2_password": {
+			"value": ""
+		},
+		"SqlServer1_properties_typeProperties_userName": {
+			"value": "INTERWORKS\\hristina.stojkovska"
+		},
+		"SqlServer2_properties_typeProperties_userName": {
+			"value": "INTERWORKS\\hristina.stojkovska"
+		}
+	}
+}
