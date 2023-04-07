@@ -1,0 +1,9 @@
+{
+	"name": "AzureSyncDF",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7a2e2cc2-ba74-4977-b81d-7a29018a9f75",
+		"tenantId": "93004b47-238e-4ef7-b9f7-8085640be5b8"
+	}
+}
