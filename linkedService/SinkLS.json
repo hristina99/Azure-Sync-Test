@@ -1,0 +1,17 @@
+{
+	"name": "SinkLS",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=True;data source=localhost;initial catalog=SyncDBtest",
+			"userName": "INTERWORKS\\hristina.stojkovska",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI4ZmI5N2JkYS05YWNhLTQ4NTktYWFmNC04NjYyNTgzZjlmZGMiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
