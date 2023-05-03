@@ -1,0 +1,16 @@
+{
+	"name": "SqlServerSource",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SourceLS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Department"
+		}
+	}
+}
