@@ -1,0 +1,6 @@
+{
+	"name": "integrationRuntimesSync",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
