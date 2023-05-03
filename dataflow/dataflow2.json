@@ -25,8 +25,8 @@
 			"scriptLines": [
 				"source(allowSchemaDrift: true,",
 				"     validateSchema: false,",
-				"     enableCdc: true,",
-				"     mode: 'read',",
+				"     enableNativeCdc: true,",
+				"     netChanges: true,",
 				"     skipInitialLoad: true,",
 				"     isolationLevel: 'READ_UNCOMMITTED',",
 				"     format: 'table') ~> Source1",
