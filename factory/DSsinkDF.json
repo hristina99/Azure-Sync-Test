@@ -1,0 +1,9 @@
+{
+	"name": "DSsinkDF",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "669e73d4-08db-4b8c-a235-4d0363fcc05f",
+		"tenantId": "93004b47-238e-4ef7-b9f7-8085640be5b8"
+	}
+}
